@@ -7,6 +7,9 @@
 [submodule "bundle/autoclose"]
 	path = bundle/autoclose
 	url = https://github.com/Townk/vim-autoclose.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
 [submodule "bundle/linters"]
 	path = bundle/linters
 	url = https://github.com/timheap/linters.vim.git

@@ -1,4 +1,3 @@
-
 " enable pathogen
 call pathogen#infect()
 
@@ -126,3 +125,4 @@ map <Leader><Tab> :bn<cr>
 
 " limit to 16 colors
 set t_Co=16
+
