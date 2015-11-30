@@ -1,3 +1,4 @@
+
 " enable pathogen
 call pathogen#infect()
 
@@ -51,8 +52,8 @@ set backspace=eol,start,indent
 set whichwrap+=<,>,h,l
 
 " wrap lines
-set nowrap
-"set wrap
+"set nowrap
+set wrap
 
 " ignore case when searching
 set ignorecase
@@ -123,5 +124,5 @@ map <Leader>{ s{}<C-c>P
 " quick switch buffers
 map <Leader><Tab> :bn<cr>
 
-" fix colors in Terminal.app
+" limit to 16 colors
 set t_Co=16
