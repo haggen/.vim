@@ -4,3 +4,9 @@
 [submodule "bundle/gitgutter.vim"]
 	path = bundle/gitgutter.vim
 	url = https://github.com/airblade/vim-gitgutter
+[submodule "bundle/autoclose.vim"]
+	path = bundle/autoclose.vim
+	url = https://github.com/Townk/vim-autoclose.git
+[submodule "bundle/linters.vim"]
+	path = bundle/linters.vim
+	url = https://github.com/timheap/linters.vim.git
