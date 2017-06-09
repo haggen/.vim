@@ -13,3 +13,9 @@
 [submodule "bundle/linters"]
 	path = bundle/linters
 	url = https://github.com/timheap/linters.vim.git
+[submodule "bundle/emmet-vim"]
+	path = bundle/emmet-vim
+	url = https://github.com/mattn/emmet-vim.git
+[submodule "bundle/scss-syntax.vim"]
+	path = bundle/scss-syntax.vim
+	url = https://github.com/cakebaker/scss-syntax.vim.git
