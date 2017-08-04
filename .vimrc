@@ -36,10 +36,6 @@ set hid
 " auto load changed files
 set autoread
 
-" map leader
-let mapleader=","
-let g:mapleader=","
-
 " how many lines move vertically when scrolling
 set so=4
 
@@ -81,7 +77,7 @@ set showmatch
 syntax enable
 
 " line numbers
-set number
+"set number
 
 " end line character
 set ffs=unix,dos,mac
@@ -109,6 +105,10 @@ set autoindent
 
 " colorscheme
 colorscheme default
+
+" map leader
+let mapleader=","
+let g:mapleader=","
 
 " insert timestamp
 map <Leader>n :r! date "+\%Y-\%m-\%d \%H:\%M:\%S \%z"<cr>
